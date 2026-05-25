@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "role": "Full Stack Developer Intern",
+    "company": "Tech Startup Nepal",
+    "location": "Kathmandu, Nepal",
+    "duration": "Jun 2023 – Dec 2023",
+    "type": "Internship",
+    "description": [
+      "Built and maintained REST APIs using Node.js and Express serving 10K+ daily requests",
+      "Developed responsive React components improving UI performance by 40%",
+      "Collaborated with a team of 5 developers using Agile/Scrum methodology",
+      "Integrated third-party payment gateways (eSewa, Khalti) for local transactions"
+    ],
+    "tech": ["React", "Node.js", "MongoDB", "Express"],
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "id": 2,
+    "role": "Freelance Web Developer",
+    "company": "Self-Employed",
+    "location": "Remote",
+    "duration": "Jan 2023 – Present",
+    "type": "Freelance",
+    "description": [
+      "Delivered 10+ client projects ranging from landing pages to full-stack applications",
+      "Specialized in React.js frontends with Node.js backends and MongoDB databases",
+      "Maintained a 5-star rating with 100% client satisfaction on delivered projects",
+      "Handled complete project lifecycle from requirement gathering to deployment"
+    ],
+    "tech": ["React", "Next.js", "Tailwind", "Firebase"],
+    "color": "from-purple-500 to-pink-500"
+  },
+  {
+    "id": 3,
+    "role": "Open Source Contributor",
+    "company": "GitHub Community",
+    "location": "Remote",
+    "duration": "2022 – Present",
+    "type": "Volunteer",
+    "description": [
+      "Contributed bug fixes and features to multiple open-source React projects",
+      "Created and maintained personal npm packages with 100+ weekly downloads",
+      "Active in developer communities, mentoring junior developers",
+      "Participated in Hacktoberfest with accepted pull requests"
+    ],
+    "tech": ["JavaScript", "TypeScript", "React", "Python"],
+    "color": "from-green-500 to-emerald-500"
+  }
+]

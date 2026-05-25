@@ -1,0 +1,45 @@
+{
+  "frontend": [
+    { "name": "React.js", "level": 90, "icon": "⚛️" },
+    { "name": "Next.js", "level": 82, "icon": "▲" },
+    { "name": "TypeScript", "level": 78, "icon": "🔷" },
+    { "name": "Tailwind CSS", "level": 92, "icon": "🎨" },
+    { "name": "Framer Motion", "level": 75, "icon": "🎭" },
+    { "name": "HTML / CSS", "level": 95, "icon": "🌐" }
+  ],
+  "backend": [
+    { "name": "Node.js", "level": 85, "icon": "🟢" },
+    { "name": "Express.js", "level": 83, "icon": "🚀" },
+    { "name": "Python", "level": 80, "icon": "🐍" },
+    { "name": "FastAPI", "level": 72, "icon": "⚡" },
+    { "name": "REST APIs", "level": 88, "icon": "🔗" },
+    { "name": "GraphQL", "level": 65, "icon": "◆" }
+  ],
+  "database": [
+    { "name": "MongoDB", "level": 85, "icon": "🍃" },
+    { "name": "PostgreSQL", "level": 78, "icon": "🐘" },
+    { "name": "MySQL", "level": 75, "icon": "🗄️" },
+    { "name": "Redis", "level": 65, "icon": "🔴" },
+    { "name": "Firebase", "level": 80, "icon": "🔥" }
+  ],
+  "tools": [
+    { "name": "Git & GitHub", "level": 90, "icon": "🐙" },
+    { "name": "Docker", "level": 70, "icon": "🐳" },
+    { "name": "AWS", "level": 65, "icon": "☁️" },
+    { "name": "Vercel", "level": 88, "icon": "▲" },
+    { "name": "Linux", "level": 75, "icon": "🐧" },
+    { "name": "VS Code", "level": 95, "icon": "💻" }
+  ],
+  "all": [
+    "React.js", "Next.js", "TypeScript", "Node.js", "Express.js",
+    "Python", "MongoDB", "PostgreSQL", "Redis", "Docker",
+    "AWS", "Git", "Tailwind CSS", "GraphQL", "Firebase",
+    "Vercel", "Linux", "REST API"
+  ],
+  "categories": [
+    { "id": "frontend", "label": "Frontend", "emoji": "🎨" },
+    { "id": "backend", "label": "Backend", "emoji": "⚙️" },
+    { "id": "database", "label": "Database", "emoji": "🗄️" },
+    { "id": "tools", "label": "Tools & Cloud", "emoji": "🛠️" }
+  ]
+}

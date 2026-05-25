@@ -1,0 +1,18 @@
+[
+  {
+    "degree": "Bachelor of Computer Science & IT",
+    "school": "Tribhuvan University",
+    "location": "Pokhara, Nepal",
+    "year": "2020 – 2024",
+    "grade": "First Division",
+    "description": "Specialized in software engineering, data structures, algorithms, and database management."
+  },
+  {
+    "degree": "Higher Secondary (Science)",
+    "school": "Premier Higher Secondary School",
+    "location": "Pokhara, Nepal",
+    "year": "2018 – 2020",
+    "grade": "GPA: 3.6",
+    "description": "Focused on Mathematics, Physics, and Computer Science fundamentals."
+  }
+]

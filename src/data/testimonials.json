@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "role": "Product Manager",
+    "company": "TechCorp Nepal",
+    "avatar": "PS",
+    "text": "Rohit delivered our e-commerce platform ahead of schedule with exceptional quality. His attention to detail and proactive communication made the project a huge success. Highly recommend!",
+    "rating": 5,
+    "color": "from-pink-500 to-rose-400"
+  },
+  {
+    "id": 2,
+    "name": "Alex Chen",
+    "role": "CTO",
+    "company": "StartupHub",
+    "avatar": "AC",
+    "text": "Working with Rohit was a pleasure. He understood our complex requirements quickly and implemented elegant solutions. The codebase is clean, well-documented, and maintainable.",
+    "rating": 5,
+    "color": "from-blue-500 to-indigo-400"
+  },
+  {
+    "id": 3,
+    "name": "Sarah Johnson",
+    "role": "Frontend Lead",
+    "company": "Digital Agency",
+    "avatar": "SJ",
+    "text": "Rohit's React skills are top-notch. He built our design system from scratch, creating reusable components that our entire team now relies on. Great communicator and team player.",
+    "rating": 5,
+    "color": "from-green-500 to-teal-400"
+  }
+]

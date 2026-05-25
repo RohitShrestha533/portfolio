@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Features include cart management, user authentication, and order tracking.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+    "tech": ["React", "Node.js", "MongoDB", "Stripe", "Redis"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "fullstack",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "A collaborative project management tool with drag-and-drop boards, real-time updates via WebSockets, team collaboration features, and detailed analytics.",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    "tech": ["React", "Express", "Socket.io", "PostgreSQL"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "fullstack",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "AI Data Dashboard",
+    "description": "Interactive analytics dashboard with ML-powered insights, data visualization using D3.js, automated reporting, and predictive analytics for business intelligence.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "tech": ["Python", "FastAPI", "React", "D3.js", "TensorFlow"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "data",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Social Media API",
+    "description": "RESTful API for a social platform with JWT auth, file uploads, real-time notifications, rate limiting, caching, and comprehensive Swagger documentation.",
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
+    "tech": ["Node.js", "Express", "MongoDB", "JWT", "AWS S3"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "backend",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Website v1",
+    "description": "A minimalist personal portfolio built with Next.js and Framer Motion featuring smooth animations, dark mode, and a blog section with MDX support.",
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    "tech": ["Next.js", "Tailwind CSS", "Framer Motion", "MDX"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "frontend",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Weather Forecast App",
+    "description": "A beautiful weather application with location detection, 7-day forecasts, weather maps, severe weather alerts, and historical data comparison.",
+    "image": "https://images.unsplash.com/photo-1504608524841-42f1e89f0855?w=600&h=400&fit=crop",
+    "tech": ["React", "OpenWeather API", "Chart.js", "Geolocation"],
+    "github": "https://github.com/RohitShrestha533",
+    "live": "#",
+    "category": "frontend",
+    "featured": false
+  }
+]

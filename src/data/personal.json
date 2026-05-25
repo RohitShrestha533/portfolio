@@ -1,0 +1,29 @@
+{
+  "name": "Rohit Shrestha",
+  "title": "Full Stack Developer",
+  "tagline": "Building digital experiences that matter",
+  "email": "rohitshrestha533@gmail.com",
+  "phone": "+977 9800000000",
+  "location": "Pokhara, Nepal",
+  "github": "https://github.com/RohitShrestha533",
+  "linkedin": "https://www.linkedin.com/in/rohitshrestha533",
+  "twitter": "https://twitter.com/rohitshrestha533",
+  "resume": "#",
+  "bio": "I'm a passionate Full Stack Developer based in Pokhara, Nepal, with a strong foundation in both frontend and backend technologies. I love turning complex problems into elegant, user-friendly solutions.",
+  "bioLong": "My journey started with pure HTML/CSS curiosity, evolved through vanilla JavaScript, and grew into building sophisticated full-stack applications. Today I work across the entire stack — from pixel-perfect React UIs to scalable Node.js APIs. I'm currently pursuing opportunities in international tech companies and exploring graduate studies in Data Science.",
+  "hobbies": ["📚 Reading tech blogs", "🏔️ Trekking in Himalayas", "🎮 Gaming", "☕ Coffee addict", "🎵 Music lover", "📸 Photography"],
+  "availability": true,
+  "availabilityText": "Available from January 2025",
+  "stats": [
+    { "label": "Projects Completed", "value": "20+" },
+    { "label": "Technologies", "value": "15+" },
+    { "label": "Years Experience", "value": "3+" },
+    { "label": "GitHub Stars", "value": "50+" }
+  ],
+  "highlights": [
+    { "icon": "Code2", "label": "Clean Code", "desc": "Maintainable & scalable" },
+    { "icon": "Heart", "label": "Passionate", "desc": "Love what I build" },
+    { "icon": "Briefcase", "label": "Professional", "desc": "On-time delivery" },
+    { "icon": "GraduationCap", "label": "Learning", "desc": "Always growing" }
+  ]
+}
