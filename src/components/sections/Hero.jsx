@@ -257,7 +257,7 @@ export default function Hero() {
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-gray-900 dark:text-white leading-tight">20+ Projects</div>
+                    <div className="text-xs font-bold text-gray-900 dark:text-white leading-tight">10+ Projects</div>
                     <div className="text-[10px] text-gray-500">Completed</div>
                   </div>
                 </motion.div>

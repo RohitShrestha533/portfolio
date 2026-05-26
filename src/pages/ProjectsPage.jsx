@@ -8,8 +8,9 @@ const filters = [
   { id: 'all', label: 'All Projects' },
   { id: 'fullstack', label: 'Full Stack' },
   { id: 'frontend', label: 'Frontend' },
-  { id: 'backend', label: 'Backend' },
-  { id: 'data', label: 'Data / AI' },
+  { id: 'mobile', label: 'Mobile Apps' },
+  { id: 'ecommerce', label: 'E-commerce' },
+  { id: 'robotics', label: 'Robotics & IoT' },
 ]
 
 function ProjectCard({ project, index }) {

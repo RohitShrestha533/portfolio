@@ -51,7 +51,7 @@ export default function AboutPage() {
                   {[
                     { Icon: MapPin, text: personal.location },
                     { Icon: Calendar, text: personal.availabilityText },
-                    { Icon: GraduationCap, text: 'BSc CSIT – Tribhuvan University' },
+                    { Icon: GraduationCap, text: 'BCIS – Boston International College (Pokhara University)' },
                     { Icon: Briefcase, text: '3+ Years of Experience' },
                   ].map(({ Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 text-sm">

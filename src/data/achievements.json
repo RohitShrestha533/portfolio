@@ -1,49 +1,49 @@
 [
   {
-    "title": "Meta Front-End Developer Certificate",
-    "issuer": "Coursera / Meta",
-    "date": "2023",
+    "title": "Winner – Project Demonstration",
+    "issuer": "United Tech Fusion 2082",
+    "date": "2026",
     "icon": "🏆",
     "link": "#",
+    "category": "award"
+  },
+  {
+    "title": "Dean's List Award – Academic Excellence",
+    "issuer": "Boston International College",
+    "date": "2025",
+    "icon": "🎓",
+    "link": "#",
+    "category": "award"
+  },
+  {
+    "title": "Full Stack Web Development",
+    "issuer": "Udemy / Dr. Angela Yu",
+    "date": "2024",
+    "icon": "🌐",
+    "link": "#",
     "category": "certification"
   },
   {
-    "title": "MongoDB Developer Certification",
+    "title": "React – The Complete Guide",
+    "issuer": "Udemy / Maximilian Schwarzmüller",
+    "date": "2024",
+    "icon": "⚛️",
+    "link": "#",
+    "category": "certification"
+  },
+  {
+    "title": "Node.js & Express – REST API Development",
+    "issuer": "Coursera",
+    "date": "2025",
+    "icon": "🟢",
+    "link": "#",
+    "category": "certification"
+  },
+  {
+    "title": "MongoDB for JavaScript Developers",
     "issuer": "MongoDB University",
-    "date": "2023",
+    "date": "2025",
     "icon": "🍃",
-    "link": "#",
-    "category": "certification"
-  },
-  {
-    "title": "AWS Cloud Practitioner",
-    "issuer": "Amazon Web Services",
-    "date": "2024",
-    "icon": "☁️",
-    "link": "#",
-    "category": "certification"
-  },
-  {
-    "title": "Hackathon Winner – HackKU 2023",
-    "issuer": "Kathmandu University",
-    "date": "2023",
-    "icon": "🥇",
-    "link": "#",
-    "category": "award"
-  },
-  {
-    "title": "Top Contributor – Hacktoberfest",
-    "issuer": "DigitalOcean",
-    "date": "2022 & 2023",
-    "icon": "🎃",
-    "link": "#",
-    "category": "award"
-  },
-  {
-    "title": "Google Data Analytics Certificate",
-    "issuer": "Google / Coursera",
-    "date": "2024",
-    "icon": "📊",
     "link": "#",
     "category": "certification"
   }

@@ -1,30 +1,45 @@
 [
   {
     "title": "Frontend Development",
-    "description": "Crafting pixel-perfect, responsive UIs with React, Next.js, and modern CSS. Focus on performance, accessibility, and delightful user experiences.",
+    "description": "Building responsive and modern user interfaces using React.js, Tailwind CSS, and modern JavaScript.",
     "icon": "🎨",
-    "features": ["React / Next.js", "Responsive Design", "Animations & UX", "Performance Optimization"],
+    "features": [
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Modern UI/UX"
+    ],
     "color": "from-blue-500 to-cyan-400"
   },
   {
     "title": "Backend Development",
-    "description": "Building robust, scalable server-side solutions with Node.js, Python, and RESTful/GraphQL APIs with proper authentication and security.",
+    "description": "Creating scalable backend systems, REST APIs, and authentication services using Node.js and Express.",
     "icon": "⚙️",
-    "features": ["Node.js / Express", "REST & GraphQL APIs", "Authentication & Security", "Microservices"],
+    "features": ["Node.js", "Express.js", "REST APIs", "JWT Authentication"],
     "color": "from-purple-500 to-violet-400"
   },
   {
-    "title": "Database Design",
-    "description": "Designing efficient database schemas, optimizing queries, and implementing both SQL and NoSQL solutions for scalable data management.",
-    "icon": "🗄️",
-    "features": ["MongoDB & PostgreSQL", "Schema Design", "Query Optimization", "Data Modeling"],
+    "title": "Mobile App Development",
+    "description": "Developing cross-platform mobile applications using React Native and modern backend integration.",
+    "icon": "📱",
+    "features": [
+      "React Native",
+      "Cross Platform Apps",
+      "API Integration",
+      "Performance Optimization"
+    ],
     "color": "from-green-500 to-emerald-400"
   },
   {
-    "title": "Cloud & Deployment",
-    "description": "Deploying and managing applications on AWS, Vercel, and other cloud platforms with CI/CD pipelines, containerization, and monitoring.",
-    "icon": "☁️",
-    "features": ["AWS / Vercel", "Docker & CI/CD", "Performance Monitoring", "SSL & Security"],
+    "title": "E-commerce Development",
+    "description": "Developing Shopify and MERN-based e-commerce platforms with optimized user experience.",
+    "icon": "🛒",
+    "features": [
+      "Shopify",
+      "Liquid",
+      "Payment Integration",
+      "SEO Optimization"
+    ],
     "color": "from-orange-500 to-amber-400"
   }
 ]
