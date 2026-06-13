@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://rohitshrestha62.com.np/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://rohitshrestha62.com.np/about</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rohitshrestha62.com.np/projects</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rohitshrestha62.com.np/experience</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rohitshrestha62.com.np/contact</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
