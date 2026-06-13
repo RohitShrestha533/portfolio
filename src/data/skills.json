@@ -1,7 +1,6 @@
 {
   "frontend": [
     { "name": "React.js", "level": 90, "icon": "⚛️" },
-    { "name": "Next.js", "level": 75, "icon": "▲" },
     { "name": "JavaScript", "level": 92, "icon": "🟨" },
     { "name": "Tailwind CSS", "level": 90, "icon": "🎨" },
     { "name": "HTML / CSS", "level": 95, "icon": "🌐" }
@@ -19,7 +18,6 @@
   "tools": [
     { "name": "Git & GitHub", "level": 90, "icon": "🐙" },
     { "name": "Postman", "level": 85, "icon": "📬" },
-    { "name": "Docker", "level": 65, "icon": "🐳" },
     { "name": "WordPress", "level": 80, "icon": "📰" },
     { "name": "Shopify", "level": 85, "icon": "🛍️" }
   ],

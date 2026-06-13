@@ -12,11 +12,10 @@ export const personalInfo = {
   bio: "I'm a passionate Full Stack Developer with a deep love for crafting elegant, performant web applications. From pixel-perfect UIs to scalable backend architectures, I bring ideas to life with clean code and thoughtful design. Currently exploring the intersection of web development and data science.",
   stats: [
     { label: "Projects Completed", value: "20+" },
-    { label: "Technologies", value: "15+" },
-    { label: "Years Experience", value: "3+" },
-    { label: "GitHub Stars", value: "50+" },
-  ]
-}
+    { label: "Years Experience", value: "4+" },
+    // { label: "GitHub Stars", value: "50+" },
+  ],
+};
 
 export const skills = {
   frontend: [
@@ -49,15 +48,17 @@ export const skills = {
     { name: "Vercel", level: 88, icon: "▲" },
     { name: "Linux", level: 75, icon: "🐧" },
     { name: "VS Code", level: 95, icon: "💻" },
-  ]
-}
+  ],
+};
 
 export const projects = [
   {
     id: 1,
     title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Features include cart management, user authentication, and order tracking.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+    description:
+      "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Features include cart management, user authentication, and order tracking.",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
     tech: ["React", "Node.js", "MongoDB", "Stripe", "Redis"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
@@ -67,8 +68,10 @@ export const projects = [
   {
     id: 2,
     title: "Task Management App",
-    description: "A collaborative project management tool with drag-and-drop boards, real-time updates via WebSockets, team collaboration features, and detailed analytics.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    description:
+      "A collaborative project management tool with drag-and-drop boards, real-time updates via WebSockets, team collaboration features, and detailed analytics.",
+    image:
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
     tech: ["React", "Express", "Socket.io", "PostgreSQL"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
@@ -78,8 +81,10 @@ export const projects = [
   {
     id: 3,
     title: "AI Data Dashboard",
-    description: "Interactive analytics dashboard with ML-powered insights, data visualization using D3.js, automated reporting, and predictive analytics for business intelligence.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    description:
+      "Interactive analytics dashboard with ML-powered insights, data visualization using D3.js, automated reporting, and predictive analytics for business intelligence.",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
     tech: ["Python", "FastAPI", "React", "D3.js", "TensorFlow"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
@@ -89,8 +94,10 @@ export const projects = [
   {
     id: 4,
     title: "Social Media API",
-    description: "RESTful API for a social platform with JWT auth, file uploads, real-time notifications, rate limiting, caching, and comprehensive Swagger documentation.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
+    description:
+      "RESTful API for a social platform with JWT auth, file uploads, real-time notifications, rate limiting, caching, and comprehensive Swagger documentation.",
+    image:
+      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
     tech: ["Node.js", "Express", "MongoDB", "JWT", "AWS S3"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
@@ -100,8 +107,10 @@ export const projects = [
   {
     id: 5,
     title: "Portfolio Website v1",
-    description: "A minimalist personal portfolio built with Next.js and Framer Motion featuring smooth animations, dark mode, and a blog section with MDX support.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    description:
+      "A minimalist personal portfolio built with Next.js and Framer Motion featuring smooth animations, dark mode, and a blog section with MDX support.",
+    image:
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "MDX"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
@@ -111,15 +120,17 @@ export const projects = [
   {
     id: 6,
     title: "Weather Forecast App",
-    description: "A beautiful weather application with location detection, 7-day forecasts, weather maps, severe weather alerts, and historical data comparison.",
-    image: "https://images.unsplash.com/photo-1504608524841-42f1e89f0855?w=600&h=400&fit=crop",
+    description:
+      "A beautiful weather application with location detection, 7-day forecasts, weather maps, severe weather alerts, and historical data comparison.",
+    image:
+      "https://images.unsplash.com/photo-1504608524841-42f1e89f0855?w=600&h=400&fit=crop",
     tech: ["React", "OpenWeather API", "Chart.js", "Geolocation"],
     github: "https://github.com/RohitShrestha533",
     live: "#",
     category: "frontend",
     featured: false,
   },
-]
+];
 
 export const experience = [
   {
@@ -170,7 +181,7 @@ export const experience = [
     tech: ["JavaScript", "TypeScript", "React", "Python"],
     color: "from-green-500 to-emerald-500",
   },
-]
+];
 
 export const education = [
   {
@@ -179,7 +190,8 @@ export const education = [
     location: "Pokhara, Nepal",
     year: "2020 – 2024",
     grade: "First Division",
-    description: "Specialized in software engineering, data structures, algorithms, and database management.",
+    description:
+      "Specialized in software engineering, data structures, algorithms, and database management.",
   },
   {
     degree: "Higher Secondary (Science)",
@@ -187,9 +199,10 @@ export const education = [
     location: "Pokhara, Nepal",
     year: "2018 – 2020",
     grade: "GPA: 3.6",
-    description: "Focused on Mathematics, Physics, and Computer Science fundamentals.",
-  }
-]
+    description:
+      "Focused on Mathematics, Physics, and Computer Science fundamentals.",
+  },
+];
 
 export const achievements = [
   {
@@ -240,38 +253,62 @@ export const achievements = [
     link: "#",
     category: "certification",
   },
-]
+];
 
 export const services = [
   {
     title: "Frontend Development",
-    description: "Crafting pixel-perfect, responsive UIs with React, Next.js, and modern CSS. Focus on performance, accessibility, and delightful user experiences.",
+    description:
+      "Crafting pixel-perfect, responsive UIs with React, Next.js, and modern CSS. Focus on performance, accessibility, and delightful user experiences.",
     icon: "🎨",
-    features: ["React / Next.js", "Responsive Design", "Animations & UX", "Performance Optimization"],
+    features: [
+      "React / Next.js",
+      "Responsive Design",
+      "Animations & UX",
+      "Performance Optimization",
+    ],
     color: "from-blue-500 to-cyan-400",
   },
   {
     title: "Backend Development",
-    description: "Building robust, scalable server-side solutions with Node.js, Python, and RESTful/GraphQL APIs with proper authentication and security.",
+    description:
+      "Building robust, scalable server-side solutions with Node.js, Python, and RESTful/GraphQL APIs with proper authentication and security.",
     icon: "⚙️",
-    features: ["Node.js / Express", "REST & GraphQL APIs", "Authentication & Security", "Microservices"],
+    features: [
+      "Node.js / Express",
+      "REST & GraphQL APIs",
+      "Authentication & Security",
+      "Microservices",
+    ],
     color: "from-purple-500 to-violet-400",
   },
   {
     title: "Database Design",
-    description: "Designing efficient database schemas, optimizing queries, and implementing both SQL and NoSQL solutions for scalable data management.",
+    description:
+      "Designing efficient database schemas, optimizing queries, and implementing both SQL and NoSQL solutions for scalable data management.",
     icon: "🗄️",
-    features: ["MongoDB & PostgreSQL", "Schema Design", "Query Optimization", "Data Modeling"],
+    features: [
+      "MongoDB & PostgreSQL",
+      "Schema Design",
+      "Query Optimization",
+      "Data Modeling",
+    ],
     color: "from-green-500 to-emerald-400",
   },
   {
     title: "Cloud & Deployment",
-    description: "Deploying and managing applications on AWS, Vercel, and other cloud platforms with CI/CD pipelines, containerization, and monitoring.",
+    description:
+      "Deploying and managing applications on AWS, Vercel, and other cloud platforms with CI/CD pipelines, containerization, and monitoring.",
     icon: "☁️",
-    features: ["AWS / Vercel", "Docker & CI/CD", "Performance Monitoring", "SSL & Security"],
+    features: [
+      "AWS / Vercel",
+      "Docker & CI/CD",
+      "Performance Monitoring",
+      "SSL & Security",
+    ],
     color: "from-orange-500 to-amber-400",
   },
-]
+];
 
 export const testimonials = [
   {
@@ -304,4 +341,4 @@ export const testimonials = [
     rating: 5,
     color: "from-green-500 to-teal-400",
   },
-]
+];
