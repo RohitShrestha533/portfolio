@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Briefcase, MapPin, Calendar } from 'lucide-react'
-import { experience } from '../../utils/data'
+import experienceData from '../../data/experience.json'
 
 export default function Experience() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
@@ -36,7 +36,7 @@ export default function Experience() {
             style={{ transformOrigin: 'top' }}
           />
 
-          {experience.map((exp, i) => {
+          {experienceData.map((exp, i) => {
             const isRight = i % 2 === 0
             return (
               <motion.div

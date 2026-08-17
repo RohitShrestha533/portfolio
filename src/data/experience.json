@@ -4,15 +4,16 @@
     "role": "Full Stack Developer",
     "company": "Cloud Sathi",
     "location": "Chitwan, Nepal",
-    "duration": "Dec 2025 – Present",
-    "type": "Part-time",
+    "duration": "12/2025 – Present",
+    "type": "Full-time",
     "description": [
-      "Develop responsive full-stack web applications using React, Node.js, HTML, CSS, and JavaScript",
-      "Delivered production-ready consultancy and business websites with SEO optimization",
-      "Collaborated with clients to implement feedback and improve user experience",
-      "Worked within Agile workflows for scalable and maintainable solutions"
+      "Develop and maintain production-ready web applications using React, JavaScript, HTML, CSS, Node.js, and REST APIs, focusing on responsive design, performance, usability, and SEO.",
+      "Contribute to multiple production systems, including a Learning Management System (LMS) with public, learner, and admin portals; an omnichannel messaging platform integrating Facebook Messenger, WhatsApp and other social platforms; a restaurant RMS/SaaS; visitor management system (Vislog); and consultancy websites.",
+      "Build reusable and scalable frontend components, integrate APIs and third-party services, and implement responsive user interfaces across client-facing and business applications.",
+      "Collaborate with clients and internal teams to understand requirements, implement feedback, troubleshoot issues, and deliver features within Agile development workflows.",
+      "Implement SEO and performance optimizations using metadata management, React Helmet, and frontend load-time improvements, and deploy production applications through modern hosting and CI/CD workflows."
     ],
-    "tech": ["React", "Node.js", "JavaScript", "HTML", "CSS"],
+    "tech": ["React", "JavaScript", "TypeScript", "Tailwind CSS", "TanStack Query", "Zustand", "Node.js", "REST APIs"],
     "color": "from-blue-500 to-cyan-500"
   },
   {
@@ -20,15 +21,15 @@
     "role": "Full Stack Developer Intern",
     "company": "Devsign Technologies",
     "location": "Chitwan, Nepal",
-    "duration": "Apr 2025 – Nov 2025",
+    "duration": "04/2025 – 11/2025",
     "type": "Internship",
     "description": [
-      "Built and maintained responsive React.js applications",
-      "Integrated third-party and internal REST APIs",
-      "Improved SEO, website performance, and load optimization",
-      "Followed Agile development and code review practices"
+      "Built and maintained responsive web applications using React.js and WordPress for client-facing and internal projects.",
+      "Developed and customized WordPress websites, implementing responsive layouts, content updates, integrations, and client-specific requirements.",
+      "Integrated third-party and internal APIs, ensuring reliable data flow and smooth frontend experiences.",
+      "Followed Agile methodologies and code review practices, contributing to maintainable, performant applications with a focus on SEO and load-time optimization."
     ],
-    "tech": ["React.js", "REST APIs", "Node.js", "JavaScript"],
+    "tech": ["React.js", "WordPress", "JavaScript", "REST APIs", "Node.js"],
     "color": "from-purple-500 to-pink-500"
   },
   {
@@ -36,15 +37,13 @@
     "role": "Programming & Robotics Instructor",
     "company": "SOS Hermann Gmeiner School",
     "location": "Bharatpur, Nepal",
-    "duration": "Oct 2024 – Nov 2024",
+    "duration": "10/2024 – 11/2024",
     "type": "Internship",
     "description": [
-      "Taught Python, C, QBasic, and Modular programming concepts",
-      "Guided students in building Arduino obstacle-detection robot cars",
-      "Helped students improve logical thinking and problem-solving skills",
-      "Integrated robotics with sensor and motor control systems"
+      "Taught Python, C, QBasic, and Modular programming, helping students grasp core software development and problem-solving concepts.",
+      "Guided students in designing and building an obstacle-detection robot car using Arduino, integrating sensors and motor control."
     ],
-    "tech": ["Python", "C", "Arduino", "Embedded Systems"],
+    "tech": ["Python", "C", "QBasic", "Arduino", "Robotics"],
     "color": "from-green-500 to-emerald-500"
   }
 ]

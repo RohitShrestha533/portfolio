@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { ExternalLink, Award, BookOpen } from 'lucide-react'
-import { achievements } from '../../utils/data'
+import achievementsData from '../../data/achievements.json'
 
 export default function Achievements() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
 
-  const certifications = achievements.filter(a => a.category === 'certification')
-  const awards = achievements.filter(a => a.category === 'award')
+  const certifications = achievementsData.filter(a => a.category === 'certification')
+  const awards = achievementsData.filter(a => a.category === 'award')
 
   return (
     <section id="achievements" className="py-24 bg-gray-50/80 dark:bg-dark-800" ref={ref}>
@@ -61,7 +61,14 @@ export default function Achievements() {
                       {cert.title}
                     </h4>
                     <p className="text-xs text-accent-500 dark:text-accent-400 font-medium">{cert.issuer}</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">{cert.date}</p>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="text-xs text-gray-500 dark:text-gray-500">{cert.date}</span>
+                      {cert.credentialId && (
+                        <span className="text-[10px] font-mono px-1.5 py-0.5 bg-gray-100 dark:bg-dark-700 text-gray-500 dark:text-gray-400 rounded">
+                          ID: {cert.credentialId}
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <a
                     href={cert.link}
@@ -83,7 +90,7 @@ export default function Achievements() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-gold-500 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-amber-500 flex items-center justify-center">
                 <Award size={16} className="text-white" />
               </div>
               <h3 className="font-display text-xl font-bold text-gray-900 dark:text-white">
@@ -95,7 +102,7 @@ export default function Achievements() {
               {awards.map((award, i) => (
                 <motion.div
                   key={award.title}
-                  className="glass-card p-5 rounded-2xl flex items-start gap-4 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border-l-4 border-gold-500"
+                  className="glass-card p-5 rounded-2xl flex items-start gap-4 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border-l-4 border-amber-500"
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }}
@@ -107,7 +114,7 @@ export default function Achievements() {
                     <h4 className="font-semibold text-gray-900 dark:text-white text-sm leading-tight mb-1">
                       {award.title}
                     </h4>
-                    <p className="text-xs text-gold-500 font-medium">{award.issuer}</p>
+                    <p className="text-xs text-amber-500 font-medium">{award.issuer}</p>
                     <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">{award.date}</p>
                   </div>
                 </motion.div>

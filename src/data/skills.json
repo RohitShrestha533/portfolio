@@ -1,15 +1,19 @@
 {
   "frontend": [
-    { "name": "React.js", "level": 90, "icon": "⚛️" },
-    { "name": "JavaScript", "level": 92, "icon": "🟨" },
+    { "name": "React.js / Vite", "level": 92, "icon": "⚛️" },
+    { "name": "JavaScript (ES6+)", "level": 92, "icon": "🟨" },
+    { "name": "TypeScript", "level": 82, "icon": "🔷" },
     { "name": "Tailwind CSS", "level": 90, "icon": "🎨" },
-    { "name": "HTML / CSS", "level": 95, "icon": "🌐" }
+    { "name": "TanStack Query & Router", "level": 85, "icon": "⚡" },
+    { "name": "Zustand", "level": 85, "icon": "🐻" },
+    { "name": "HTML5 / CSS3", "level": 95, "icon": "🌐" }
   ],
   "backend": [
     { "name": "Node.js", "level": 85, "icon": "🟢" },
     { "name": "Express.js", "level": 82, "icon": "🚀" },
-    { "name": "PHP", "level": 70, "icon": "🐘" },
-    { "name": "REST APIs", "level": 88, "icon": "🔗" }
+    { "name": "REST APIs", "level": 90, "icon": "🔗" },
+    { "name": "JWT Authentication", "level": 85, "icon": "🔐" },
+    { "name": "PHP", "level": 70, "icon": "🐘" }
   ],
   "database": [
     { "name": "MongoDB", "level": 85, "icon": "🍃" },
@@ -18,29 +22,38 @@
   "tools": [
     { "name": "Git & GitHub", "level": 90, "icon": "🐙" },
     { "name": "Postman", "level": 85, "icon": "📬" },
-    { "name": "WordPress", "level": 80, "icon": "📰" },
-    { "name": "Shopify", "level": 85, "icon": "🛍️" }
+    { "name": "CI/CD & Netlify", "level": 80, "icon": "🚀" },
+    { "name": "WordPress", "level": 85, "icon": "📰" },
+    { "name": "Shopify", "level": 85, "icon": "🛍️" },
+    { "name": "Jira & Slack", "level": 85, "icon": "💼" }
   ],
   "all": [
-    "React.js",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vite",
+    "TanStack Query",
+    "Zustand",
+    "Tailwind CSS",
     "React Native",
     "Node.js",
     "Express.js",
+    "REST APIs",
+    "JWT Authentication",
     "MongoDB",
     "MySQL",
-    "JavaScript",
-    "Tailwind CSS",
     "Shopify",
     "WordPress",
     "PHP",
+    "Python",
     "Git",
-    "REST API",
-    "Arduino"
+    "CI/CD",
+    "Postman"
   ],
   "categories": [
     { "id": "frontend", "label": "Frontend", "emoji": "🎨" },
-    { "id": "backend", "label": "Backend", "emoji": "⚙️" },
+    { "id": "backend", "label": "Backend & APIs", "emoji": "⚙️" },
     { "id": "database", "label": "Database", "emoji": "🗄️" },
-    { "id": "tools", "label": "Tools & Platforms", "emoji": "🛠️" }
+    { "id": "tools", "label": "Tools, DevOps & CMS", "emoji": "🛠️" }
   ]
 }

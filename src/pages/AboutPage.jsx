@@ -52,7 +52,7 @@ export default function AboutPage() {
                     { Icon: MapPin, text: personal.location },
                     { Icon: Calendar, text: personal.availabilityText },
                     { Icon: GraduationCap, text: 'BCIS – Boston International College (Pokhara University)' },
-                    { Icon: Briefcase, text: '3+ Years of Experience' },
+                    { Icon: Briefcase, text: '4+ Years of Experience' },
                   ].map(({ Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 text-sm">
                       <Icon size={15} className="text-accent-500 flex-shrink-0" />

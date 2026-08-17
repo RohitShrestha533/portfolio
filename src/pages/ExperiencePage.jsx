@@ -16,7 +16,7 @@ const fadeLeft = {
 
 const statItems = [
   { value: `${experienceData.length}`, label: 'Roles Held', icon: '💼' },
-  { value: '3+', label: 'Years Active', icon: '📅' },
+  { value: '4+', label: 'Years Active', icon: '📅' },
   { value: '10+', label: 'Projects Delivered', icon: '🚀' },
   { value: '4+', label: 'Certifications', icon: '🎓' },
 ]
@@ -196,7 +196,14 @@ export default function ExperiencePage() {
                     <div className="flex-1 min-w-0">
                       <h4 className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">{cert.title}</h4>
                       <p className="text-xs text-accent-500 font-medium mt-0.5">{cert.issuer}</p>
-                      <p className="text-xs text-gray-400 dark:text-gray-600 mt-0.5">{cert.date}</p>
+                      <div className="flex items-center gap-2 mt-0.5">
+                        <span className="text-xs text-gray-400 dark:text-gray-600">{cert.date}</span>
+                        {cert.credentialId && (
+                          <span className="text-[10px] font-mono px-1.5 py-0.5 bg-gray-100 dark:bg-dark-700 text-gray-500 rounded">
+                            ID: {cert.credentialId}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     <a
                       href={cert.link}

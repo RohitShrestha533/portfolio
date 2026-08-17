@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { MapPin, Calendar, GraduationCap, Briefcase, Heart, Code2 } from 'lucide-react'
-import { personalInfo, education } from '../../utils/data'
+import { MapPin, Calendar, GraduationCap, Briefcase, Heart, Code2, Smartphone, ShoppingBag } from 'lucide-react'
+import personal from '../../data/personal.json'
+import education from '../../data/education.json'
+
+const iconMap = { Code2, Smartphone, ShoppingBag, GraduationCap, Heart, Briefcase }
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -10,13 +13,6 @@ const fadeUp = {
     transition: { duration: 0.6, delay: i * 0.1, ease: 'easeOut' }
   })
 }
-
-const highlights = [
-  { icon: Code2, label: 'Clean Code', desc: 'Maintainable & scalable' },
-  { icon: Heart, label: 'Passionate', desc: 'Love what I build' },
-  { icon: Briefcase, label: 'Professional', desc: 'On-time delivery' },
-  { icon: GraduationCap, label: 'Learning', desc: 'Always growing' },
-]
 
 export default function About() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
@@ -57,30 +53,17 @@ export default function About() {
               </h3>
 
               <div className="space-y-4 pl-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-                <p>
-                  I'm a passionate Full Stack Developer based in Pokhara, Nepal, with a strong foundation in
-                  both frontend and backend technologies. I love turning complex problems into elegant,
-                  user-friendly solutions.
-                </p>
-                <p>
-                  My journey started with pure HTML/CSS curiosity, evolved through vanilla JavaScript,
-                  and grew into building sophisticated full-stack applications. Today, I work across the
-                  entire stack — from pixel-perfect React UIs to scalable Node.js APIs.
-                </p>
-                <p>
-                  I'm currently pursuing opportunities in international tech companies and exploring
-                  graduate studies in Data Science, where I can combine my development skills with
-                  machine learning and analytics.
-                </p>
+                <p>{personal.bio}</p>
+                <p>{personal.bioLong}</p>
               </div>
 
               {/* Meta info */}
               <div className="mt-8 pl-4 space-y-3">
                 {[
-                  { icon: MapPin, text: 'Pokhara, Gandaki, Nepal' },
-                  { icon: Calendar, text: 'Available from January 2025' },
-                  { icon: GraduationCap, text: 'BSc CSIT – Tribhuvan University' },
-                  { icon: Briefcase, text: '3+ Years of Experience' },
+                  { icon: MapPin, text: personal.location },
+                  { icon: Calendar, text: personal.availabilityText },
+                  { icon: GraduationCap, text: 'BCIS – Boston International College (Pokhara University)' },
+                  { icon: Briefcase, text: '4+ Years of Experience' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex items-center gap-3 text-sm">
                     <Icon size={16} className="text-accent-500 flex-shrink-0" />
@@ -92,22 +75,25 @@ export default function About() {
 
             {/* Highlights grid */}
             <div className="grid grid-cols-2 gap-4 mt-10">
-              {highlights.map(({ icon: Icon, label, desc }, i) => (
-                <motion.div
-                  key={label}
-                  className="glass-card p-5 rounded-2xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
-                  variants={fadeUp}
-                  initial="hidden"
-                  animate={inView ? "visible" : "hidden"}
-                  custom={2 + i * 0.2}
-                >
-                  <div className="w-10 h-10 rounded-xl bg-accent-50 dark:bg-accent-500/10 flex items-center justify-center mb-3 group-hover:bg-accent-500 transition-colors duration-300">
-                    <Icon size={20} className="text-accent-500 group-hover:text-white transition-colors duration-300" />
-                  </div>
-                  <div className="font-semibold text-gray-900 dark:text-white text-sm">{label}</div>
-                  <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">{desc}</div>
-                </motion.div>
-              ))}
+              {personal.highlights.map(({ icon, label, desc }, i) => {
+                const Icon = iconMap[icon] || Code2
+                return (
+                  <motion.div
+                    key={label}
+                    className="glass-card p-5 rounded-2xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
+                    variants={fadeUp}
+                    initial="hidden"
+                    animate={inView ? "visible" : "hidden"}
+                    custom={2 + i * 0.2}
+                  >
+                    <div className="w-10 h-10 rounded-xl bg-accent-50 dark:bg-accent-500/10 flex items-center justify-center mb-3 group-hover:bg-accent-500 transition-colors duration-300">
+                      <Icon size={20} className="text-accent-500 group-hover:text-white transition-colors duration-300" />
+                    </div>
+                    <div className="font-semibold text-gray-900 dark:text-white text-sm">{label}</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">{desc}</div>
+                  </motion.div>
+                )
+              })}
             </div>
           </motion.div>
 
@@ -158,11 +144,11 @@ export default function About() {
               ))}
             </div>
 
-            {/* Fun facts */}
+            {/* Hobbies */}
             <div className="mt-8 glass-card p-6 rounded-2xl">
               <h4 className="font-semibold text-gray-900 dark:text-white mb-4">When I'm not coding...</h4>
               <div className="flex flex-wrap gap-2">
-                {['📚 Reading tech blogs', '🏔️ Trekking in Himalayas', '🎮 Gaming', '☕ Coffee addict', '🎵 Music lover', '📸 Photography'].map(item => (
+                {personal.hobbies.map(item => (
                   <span key={item} className="skill-tag text-xs px-3 py-1.5">{item}</span>
                 ))}
               </div>

@@ -1,18 +1,18 @@
 [
   {
     "degree": "Bachelor of Computer Information System (BCIS) in IT",
-    "school": "Boston International College",
+    "school": "Boston International College (Pokhara University)",
     "location": "Bharatpur, Nepal",
-    "year": "2021 – 2026",
-    "grade": "GPA: 3.8/4.0",
-    "description": "Dean’s List holder at Pokhara University with specialization in web development, databases, networking, and software engineering."
+    "year": "08/2021 – 03/2026",
+    "grade": "GPA: 3.76/4.0",
+    "description": "Dean’s List holder at Pokhara University. Relevant coursework: Web Development, Database Management, Data Structures & Algorithms, Computer Graphics & Image Processing, Data Communication & Networks, Operating Systems."
   },
   {
-    "degree": "+2 Management with Computer",
+    "degree": "+2 Management with Computer Science",
     "school": "Higher Secondary School",
     "location": "Chitwan, Nepal",
     "year": "2019 – 2021",
     "grade": "Completed",
-    "description": "Focused on computer fundamentals, business studies, accounting, and information technology."
+    "description": "Focused on computer fundamentals, programming logic, business studies, and information technology."
   }
 ]

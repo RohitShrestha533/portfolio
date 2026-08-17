@@ -1,50 +1,52 @@
 [
   {
-    "title": "Winner – Project Demonstration",
+    "title": "Winner of Project Demonstration",
     "issuer": "United Tech Fusion 2082",
-    "date": "2026",
+    "date": "01/2026",
     "icon": "🏆",
     "link": "#",
     "category": "award"
   },
   {
     "title": "Dean's List Award – Academic Excellence",
-    "issuer": "Boston International College",
-    "date": "2025",
+    "issuer": "Boston International College (Pokhara University)",
+    "date": "2026",
     "icon": "🎓",
     "link": "#",
     "category": "award"
   },
   {
-    "title": "Full Stack Web Development",
-    "issuer": "Udemy / Dr. Angela Yu",
-    "date": "2024",
-    "icon": "🌐",
-    "link": "#",
+    "title": "Supervised Machine Learning: Regression and Classification",
+    "issuer": "Stanford University & DeepLearning.AI",
+    "date": "Mar 2025",
+    "credentialId": "9E4RSIRAKYJN",
+    "icon": "🤖",
+    "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
     "category": "certification"
   },
   {
-    "title": "React – The Complete Guide",
-    "issuer": "Udemy / Maximilian Schwarzmüller",
-    "date": "2024",
-    "icon": "⚛️",
-    "link": "#",
+    "title": "Certified in Governance, Risk and Compliance",
+    "issuer": "SecurityPal AI (Customer Assurance CAx™)",
+    "date": "Apr 2025",
+    "icon": "🛡️",
+    "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
     "category": "certification"
   },
   {
-    "title": "Node.js & Express – REST API Development",
-    "issuer": "Coursera",
-    "date": "2025",
-    "icon": "🟢",
-    "link": "#",
+    "title": "hadoopFundamentals-I",
+    "issuer": "OnlineLearningCenter",
+    "date": "Jun 2025",
+    "credentialId": "OLC-18235-28805-1001-213",
+    "icon": "🐘",
+    "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
     "category": "certification"
   },
   {
-    "title": "MongoDB for JavaScript Developers",
-    "issuer": "MongoDB University",
-    "date": "2025",
-    "icon": "🍃",
-    "link": "#",
+    "title": "Search Engine Optimization (SEO)",
+    "issuer": "HubSpot Academy",
+    "date": "May 2024",
+    "icon": "🔍",
+    "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
     "category": "certification"
   }
 ]

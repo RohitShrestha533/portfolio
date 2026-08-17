@@ -142,15 +142,13 @@ export default function Hero() {
                 sequence={[
                   "Full Stack Developer",
                   2200,
-                  "React.js Specialist",
-                  2200,
-                  "Node.js Developer",
+                  "React & TypeScript Specialist",
                   2200,
                   "Data Science Enthusiast",
                   2200,
-                  "Wordpress Developer",
+                  "Node.js & REST APIs",
                   2200,
-                  "Shopify Developer",
+                  "WordPress & Shopify Developer",
                   2200,
                 ]}
                 wrapper="span"
