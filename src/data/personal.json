@@ -1,48 +1,51 @@
 {
   "name": "Rohit Shrestha",
-  "title": "Frontend / Full Stack Developer",
-  "tagline": "Building scalable web & mobile applications with modern technologies",
+  "title": "Fullstack Developer",
+  "tagline": "Fullstack Developer & Dean's List Graduate | Building scalable web & mobile applications",
   "email": "shrestharohit533@gmail.com",
   "phone": "+977 9809234720",
   "location": "Bharatpur-21, Chitwan, Nepal",
-  "github": "https://github.com/RohitShrestha533",
-  "linkedin": "https://www.linkedin.com/in/rohitshrestha533",
-  "resume": "/FRONTEND_AUG2026.pdf",
-  "bio": "Frontend Developer and Dean's List graduate (3.76 CGPA) with professional experience building scalable, responsive web applications using React, JavaScript, TypeScript, HTML, CSS, and Node.js.",
-  "bioLong": "Skilled in developing production-ready websites, SaaS platforms, CMS-driven applications, and API-integrated systems, with a strong focus on performance, SEO, usability, and responsive design. Hands-on experience with LMS, RMS/SaaS, Omnichannel messaging, WordPress, Shopify, REST APIs, CI/CD deployments, and Agile development.",
+  "github": "https://github.com/rohitshrestha533",
+  "linkedin": "https://linkedin.com/in/rohitshrestha533",
+  "website": "https://rohitshrestha62.com.np/",
+  "resume": "/Fullstack-oct.pdf",
+  "bio": "Fullstack Developer and Dean’s List graduate (3.76 CGPA) with professional experience building scalable, responsive web applications using React, JavaScript, TypeScript, HTML, CSS, and Node.js.",
+  "bioLong": "Experienced in translating Figma designs into responsive, reusable React interfaces for desktop, tablet, and mobile. Strong hands-on experience with TanStack Query, TanStack Router, Zustand, CI/CD, REST API integration, form handling, authentication, and component-based architecture. Experienced in developing SaaS platforms, admin dashboards, and business applications with a focus on clean code, usability, performance, and maintainability.",
   "hobbies": [
-    "💻 Building side projects",
+    "💻 Building side projects & SaaS",
     "🤖 Robotics & Arduino",
-    "🎮 Gaming",
-    "☕ Coffee & coding"
+    "⚡ Exploring new frontend & backend tech",
+    "🎮 Gaming & problem solving",
+    "☕ Coffee & clean code"
   ],
   "availability": true,
   "availabilityText": "Available for full-time, remote & on-site opportunities",
   "stats": [
     { "label": "Projects Delivered", "value": "10+" },
-    { "label": "Years Experience", "value": "4+" },
-    { "label": "Happy Clients & Orgs", "value": "5+" }
+    { "label": "Years Active Coding", "value": "4+" },
+    { "label": "Dean's List Academic GPA", "value": "3.76" },
+    { "label": "Production Systems", "value": "5+" }
   ],
   "highlights": [
     {
       "icon": "Code2",
-      "label": "Frontend & Full Stack",
-      "desc": "React, TypeScript & Modern UI"
-    },
-    {
-      "icon": "Smartphone",
-      "label": "Mobile Apps",
-      "desc": "React Native Applications"
+      "label": "Fullstack & Modern UI",
+      "desc": "React, TypeScript, TanStack & Node.js"
     },
     {
       "icon": "ShoppingBag",
-      "label": "E-commerce & SaaS",
-      "desc": "Shopify, RMS & LMS Solutions"
+      "label": "SaaS & Admin Portals",
+      "desc": "LMS, RMS/SaaS, RBAC & Multi-tenant"
+    },
+    {
+      "icon": "Smartphone",
+      "label": "Mobile Applications",
+      "desc": "React Native Cross-Platform Apps"
     },
     {
       "icon": "GraduationCap",
-      "label": "Dean's List Holder",
-      "desc": "Academic Excellence (3.76 CGPA)"
+      "label": "Dean's List Award",
+      "desc": "Academic Excellence (3.76/4.0 CGPA)"
     }
   ]
 }

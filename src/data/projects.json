@@ -3,79 +3,222 @@
     "id": 1,
     "title": "Learning Management System (LMS)",
     "company": "Cloud Sathi",
-    "description": "Scalable Learning Management System supporting public, learner, and administrative workflows with course, video, certificate, and content management.",
-    "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
-    "tech": ["React", "Vite", "TanStack Router", "TanStack Query", "Zustand", "Tailwind CSS"],
+    "duration": "06/2026 – 08/2026",
+    "description": "Scalable Learning Management System built with React, Vite, TanStack Router, TanStack Query, Zustand, and Tailwind CSS, supporting public, learner, and administrative workflows. Built and maintained course management, video learning, certificate generation, invoices, support tickets, and JWT role-based access control (RBAC).",
+    "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=500&fit=crop",
+    "tech": [
+      "React",
+      "Vite",
+      "TanStack Router",
+      "TanStack Query",
+      "Zustand",
+      "Tailwind CSS",
+      "JWT Auth",
+      "REST APIs"
+    ],
     "github": "",
     "live": "",
-    "category": "frontend",
-    "featured": true
+    "category": "fullstack",
+    "featured": true,
+    "highlights": [
+      "Multi-portal architecture (Public, Learner, and Admin)",
+      "JWT Authentication & Role-Based Access Control (RBAC)",
+      "Automated Certificate & Invoice Generation",
+      "Feature-based modular React architecture"
+    ]
   },
   {
     "id": 2,
     "title": "Restaurant Management System (RMS/SaaS)",
     "company": "Cloud Sathi",
-    "description": "Scalable restaurant management SaaS platform supporting ordering, inventory, kitchen operations, reservations, billing, and role-based access control.",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
-    "tech": ["React", "Vite", "Tailwind CSS", "TanStack Query", "Zustand", "React Hook Form"],
+    "duration": "05/2026 – 07/2026",
+    "description": "Scalable restaurant management platform built using React, Vite, and Tailwind CSS, supporting ordering, inventory, kitchen operations, reservations, billing, and reporting. Designed a modular feature-based frontend architecture with custom hooks, shared UI components, and structured API services.",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+    "tech": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "TanStack Query",
+      "Zustand",
+      "React Hook Form",
+      "REST APIs",
+      "RBAC"
+    ],
     "github": "",
     "live": "https://rms.sathicloud.com/",
-    "category": "frontend",
-    "featured": true
+    "category": "fullstack",
+    "featured": true,
+    "highlights": [
+      "Table reservations, live kitchen orders & billing",
+      "Role-based permissions & component-level authorization",
+      "Server-state management with TanStack Query & Axios",
+      "Comprehensive reporting & inventory tracking"
+    ]
   },
   {
     "id": 3,
     "title": "Smart Hospital System",
-    "description": "Full-stack healthcare platform with ambulance booking, doctor appointments, patient portal, and real-time bed availability.",
-    "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=600&h=400&fit=crop",
-    "tech": ["React", "React Native", "Node.js", "MongoDB", "Tailwind CSS"],
-    "github": "https://github.com/RohitShrestha533/SmartHospitalapp",
+    "duration": "09/2025 – 01/2026",
+    "description": "Full-stack healthcare platform developed using React, React Native, and Node.js. Supports emergency ambulance booking, doctor appointments, real-time bed availability, patient portal, and admin management dashboard with mapping services.",
+    "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&h=500&fit=crop",
+    "tech": [
+      "React",
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Mapping APIs"
+    ],
+    "github": "https://github.com/rohitshrestha533/SmartHospitalapp",
     "live": "",
     "category": "fullstack",
-    "featured": true
+    "featured": true,
+    "highlights": [
+      "Admin dashboard & patient portal",
+      "Cross-platform mobile application with real-time notifications",
+      "Real-time hospital bed status tracking",
+      "Mapping services integration for ambulance booking"
+    ]
   },
   {
     "id": 4,
     "title": "Ambulance Booking System",
-    "description": "Cross-platform ambulance booking application with real-time location tracking and emergency request system.",
-    "image": "https://images.unsplash.com/photo-1587745416684-47953f16f02f?w=600&h=400&fit=crop",
-    "tech": ["React Native", "Node.js", "MongoDB", "Express.js"],
-    "github": "https://github.com/RohitShrestha533/Ambulance",
+    "description": "Cross-platform emergency ambulance booking mobile application with real-time driver tracking, geolocation mapping services, emergency dispatch, and rapid patient onboarding.",
+    "image": "https://images.unsplash.com/photo-1587745416684-47953f16f02f?w=800&h=500&fit=crop",
+    "tech": [
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "Geolocation"
+    ],
+    "github": "https://github.com/rohitshrestha533/Ambulance",
     "live": "",
     "category": "mobile",
-    "featured": true
+    "featured": true,
+    "highlights": [
+      "Real-time GPS tracking of nearest ambulances",
+      "Instant driver dispatch & status notifications",
+      "Emergency quick-call & patient details sync"
+    ]
   },
   {
     "id": 5,
-    "title": "Shopify Hair Care Store",
-    "description": "Modern Shopify e-commerce website for a hair care brand with responsive UI and optimized shopping experience.",
-    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=400&fit=crop",
-    "tech": ["Shopify", "Liquid", "HTML", "CSS", "JavaScript"],
+    "title": "Omnichannel Messaging Platform",
+    "company": "Cloud Sathi",
+    "duration": "2026",
+    "description": "High-volume omnichannel customer communication platform integrating Facebook Messenger, WhatsApp, and social media channels into a unified dashboard with automated routing and agent assignment.",
+    "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=500&fit=crop",
+    "tech": [
+      "React",
+      "Node.js",
+      "REST APIs",
+      "WebSockets",
+      "Meta APIs",
+      "Tailwind CSS"
+    ],
     "github": "",
-    "live": "https://glarusorganics.com",
-    "category": "ecommerce",
-    "featured": true
+    "live": "",
+    "category": "fullstack",
+    "featured": true,
+    "highlights": [
+      "Facebook Messenger & WhatsApp integration",
+      "Unified conversational inbox for support teams",
+      "Real-time chat messaging via WebSockets"
+    ]
   },
   {
     "id": 6,
-    "title": "Hotel Booking Tourism System",
-    "description": "Tourism and hotel reservation website with booking management and responsive user experience.",
-    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
-    "tech": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    "github": "https://github.com/RohitShrestha533/TourismWebsite",
+    "title": "Vislog – Visitor Management System",
+    "company": "Cloud Sathi",
+    "duration": "2026",
+    "description": "Enterprise visitor check-in, tracking, security logging, and badge issuance platform for businesses and corporate facilities, improving safety and workplace compliance.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "tech": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "REST APIs",
+      "JWT Auth"
+    ],
+    "github": "",
     "live": "",
-    "category": "fullstack",
-    "featured": false
+    "category": "frontend",
+    "featured": false,
+    "highlights": [
+      "Digital visitor log & photo capture check-in",
+      "Host notifications upon visitor arrival",
+      "Exportable security records and compliance logs"
+    ]
   },
   {
     "id": 7,
+    "title": "Shopify Hair Care Store (Glarus Organics)",
+    "description": "Modern e-commerce store developed for a luxury hair care brand featuring custom responsive Liquid templates, product catalog, cart drawer optimization, and technical SEO enhancements.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=500&fit=crop",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "SEO"
+    ],
+    "github": "",
+    "live": "https://glarusorganics.com",
+    "category": "ecommerce",
+    "featured": false,
+    "highlights": [
+      "Custom responsive Liquid theme sections",
+      "Cart optimization and frictionless checkout",
+      "High Lighthouse performance & Core Web Vitals"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Hotel Booking Tourism System",
+    "description": "Full-stack tourism and hotel booking web application with room reservation management, search filtering, database operations, and responsive client interfaces.",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop",
+    "tech": [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ],
+    "github": "https://github.com/rohitshrestha533/TourismWebsite",
+    "live": "",
+    "category": "fullstack",
+    "featured": false,
+    "highlights": [
+      "Room search, availability checker & booking engine",
+      "Admin backend for reservation management",
+      "Relational MySQL schema design"
+    ]
+  },
+  {
+    "id": 9,
     "title": "Arduino Obstacle Detecting Robot Car",
-    "description": "Obstacle avoiding robot car using Arduino sensors and motor control systems.",
-    "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=400&fit=crop",
-    "tech": ["Arduino", "C++", "Sensors"],
-    "github": "https://github.com/RohitShrestha533/Arduinocode",
+    "description": "Autonomous obstacle-avoiding robotic vehicle engineered with Arduino microcontrollers, ultrasonic distance sensors, and DC motor drivers programmed in C++.",
+    "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&h=500&fit=crop",
+    "tech": [
+      "Arduino",
+      "C++",
+      "Ultrasonic Sensors",
+      "Motor Drivers",
+      "Robotics"
+    ],
+    "github": "https://github.com/rohitshrestha533/Arduinocode",
     "live": "",
     "category": "robotics",
-    "featured": false
+    "featured": false,
+    "highlights": [
+      "Real-time ultrasonic distance detection",
+      "Autonomous obstacle avoidance algorithms",
+      "PWM motor speed and direction controls"
+    ]
   }
 ]

@@ -5,7 +5,8 @@
     "date": "01/2026",
     "icon": "🏆",
     "link": "#",
-    "category": "award"
+    "category": "award",
+    "description": "First place award for innovative engineering and full-stack software demonstration."
   },
   {
     "title": "Dean's List Award – Academic Excellence",
@@ -13,7 +14,8 @@
     "date": "2026",
     "icon": "🎓",
     "link": "#",
-    "category": "award"
+    "category": "award",
+    "description": "Awarded for exceptional academic performance with a 3.76/4.0 CGPA."
   },
   {
     "title": "Supervised Machine Learning: Regression and Classification",
@@ -22,15 +24,17 @@
     "credentialId": "9E4RSIRAKYJN",
     "icon": "🤖",
     "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
-    "category": "certification"
+    "category": "certification",
+    "description": "Deep dive into statistical learning, algorithmic modeling, regression, and classification."
   },
   {
-    "title": "Certified in Governance, Risk and Compliance",
+    "title": "Certified in Governance, Risk and Compliance (GRC)",
     "issuer": "SecurityPal AI (Customer Assurance CAx™)",
     "date": "Apr 2025",
     "icon": "🛡️",
     "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
-    "category": "certification"
+    "category": "certification",
+    "description": "Enterprise software security, compliance frameworks, risk assessments, and auditing."
   },
   {
     "title": "hadoopFundamentals-I",
@@ -39,7 +43,8 @@
     "credentialId": "OLC-18235-28805-1001-213",
     "icon": "🐘",
     "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
-    "category": "certification"
+    "category": "certification",
+    "description": "Distributed data storage, Hadoop architectural paradigms, and large-scale data processing."
   },
   {
     "title": "Search Engine Optimization (SEO)",
@@ -47,6 +52,7 @@
     "date": "May 2024",
     "icon": "🔍",
     "link": "https://www.linkedin.com/in/rohitshrestha533/details/certifications/",
-    "category": "certification"
+    "category": "certification",
+    "description": "On-page and technical SEO, Core Web Vitals optimization, indexing, and performance."
   }
 ]

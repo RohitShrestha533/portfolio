@@ -1,59 +1,76 @@
 {
   "frontend": [
-    { "name": "React.js / Vite", "level": 92, "icon": "⚛️" },
-    { "name": "JavaScript (ES6+)", "level": 92, "icon": "🟨" },
-    { "name": "TypeScript", "level": 82, "icon": "🔷" },
-    { "name": "Tailwind CSS", "level": 90, "icon": "🎨" },
-    { "name": "TanStack Query & Router", "level": 85, "icon": "⚡" },
-    { "name": "Zustand", "level": 85, "icon": "🐻" },
-    { "name": "HTML5 / CSS3", "level": 95, "icon": "🌐" }
+    { "name": "React.js & Vite", "level": 95, "icon": "⚛️" },
+    { "name": "TypeScript", "level": 90, "icon": "🔷" },
+    { "name": "JavaScript (ES6+)", "level": 95, "icon": "🟨" },
+    { "name": "TanStack Query", "level": 92, "icon": "⚡" },
+    { "name": "TanStack Router", "level": 88, "icon": "🧭" },
+    { "name": "Zustand State Management", "level": 90, "icon": "🐻" },
+    { "name": "Tailwind CSS", "level": 95, "icon": "🎨" },
+    { "name": "Responsive Web Design", "level": 98, "icon": "📱" },
+    { "name": "HTML5 & Modern CSS3", "level": 98, "icon": "🌐" }
   ],
   "backend": [
-    { "name": "Node.js", "level": 85, "icon": "🟢" },
-    { "name": "Express.js", "level": 82, "icon": "🚀" },
-    { "name": "REST APIs", "level": 90, "icon": "🔗" },
-    { "name": "JWT Authentication", "level": 85, "icon": "🔐" },
-    { "name": "PHP", "level": 70, "icon": "🐘" }
+    { "name": "Node.js", "level": 88, "icon": "🟢" },
+    { "name": "Express.js", "level": 86, "icon": "🚀" },
+    { "name": "REST API Architecture", "level": 94, "icon": "🔗" },
+    { "name": "JWT Authentication & RBAC", "level": 90, "icon": "🔐" },
+    { "name": "Python", "level": 82, "icon": "🐍" },
+    { "name": "PHP", "level": 80, "icon": "🐘" }
   ],
-  "database": [
-    { "name": "MongoDB", "level": 85, "icon": "🍃" },
-    { "name": "MySQL", "level": 80, "icon": "🗄️" }
+  "mobile_db": [
+    { "name": "React Native", "level": 86, "icon": "📱" },
+    { "name": "MongoDB", "level": 88, "icon": "🍃" },
+    { "name": "MySQL", "level": 84, "icon": "🗄️" },
+    { "name": "State & Offline Storage", "level": 85, "icon": "💾" }
   ],
   "tools": [
-    { "name": "Git & GitHub", "level": 90, "icon": "🐙" },
-    { "name": "Postman", "level": 85, "icon": "📬" },
-    { "name": "CI/CD & Netlify", "level": 80, "icon": "🚀" },
-    { "name": "WordPress", "level": 85, "icon": "📰" },
-    { "name": "Shopify", "level": 85, "icon": "🛍️" },
-    { "name": "Jira & Slack", "level": 85, "icon": "💼" }
+    { "name": "Git & GitHub", "level": 94, "icon": "🐙" },
+    { "name": "CI/CD Workflows", "level": 86, "icon": "⚙️" },
+    { "name": "Postman & API Testing", "level": 90, "icon": "📬" },
+    { "name": "WordPress & Shopify", "level": 88, "icon": "🛍️" },
+    { "name": "cPanel & Netlify Hosting", "level": 88, "icon": "☁️" },
+    { "name": "Jira & Slack (Agile)", "level": 90, "icon": "💼" }
   ],
   "all": [
-    "JavaScript",
-    "TypeScript",
     "React",
+    "TypeScript",
+    "JavaScript",
     "Vite",
     "TanStack Query",
+    "TanStack Router",
     "Zustand",
     "Tailwind CSS",
-    "React Native",
+    "Responsive Web Design",
+    "HTML5",
+    "CSS3",
     "Node.js",
     "Express.js",
     "REST APIs",
     "JWT Authentication",
+    "RBAC Authorization",
+    "React Native",
     "MongoDB",
     "MySQL",
-    "Shopify",
-    "WordPress",
-    "PHP",
     "Python",
-    "Git",
+    "PHP",
     "CI/CD",
-    "Postman"
+    "Git",
+    "GitHub",
+    "Postman",
+    "WordPress",
+    "Shopify",
+    "Custom CMS",
+    "cPanel",
+    "Netlify",
+    "Jira",
+    "Slack",
+    "Agile Workflow"
   ],
   "categories": [
-    { "id": "frontend", "label": "Frontend", "emoji": "🎨" },
+    { "id": "frontend", "label": "Frontend & UI", "emoji": "🎨" },
     { "id": "backend", "label": "Backend & APIs", "emoji": "⚙️" },
-    { "id": "database", "label": "Database", "emoji": "🗄️" },
-    { "id": "tools", "label": "Tools, DevOps & CMS", "emoji": "🛠️" }
+    { "id": "mobile_db", "label": "Mobile & Databases", "emoji": "📱" },
+    { "id": "tools", "label": "DevOps, Tools & CMS", "emoji": "🛠️" }
   ]
 }

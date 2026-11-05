@@ -8,17 +8,30 @@
     "type": "Full-time",
     "description": [
       "Develop and maintain production-ready web applications using React, JavaScript, HTML, CSS, Node.js, and REST APIs, focusing on responsive design, performance, usability, and SEO.",
-      "Contribute to multiple production systems, including a Learning Management System (LMS) with public, learner, and admin portals; an omnichannel messaging platform integrating Facebook Messenger, WhatsApp and other social platforms; a restaurant RMS/SaaS; visitor management system (Vislog); and consultancy websites.",
-      "Build reusable and scalable frontend components, integrate APIs and third-party services, and implement responsive user interfaces across client-facing and business applications.",
+      "Contribute to multiple production systems, including a Learning Management System (LMS) with public, learner, and admin portals; an omnichannel messaging platform integrating Facebook Messenger, WhatsApp and other social platforms; a restaurant RMS/SaaS; visitor management system (Vislog); consultancy websites; and restaurant websites.",
+      "Translate Figma designs and UI requirements into responsive, reusable React interfaces for desktop, tablet, and mobile.",
       "Collaborate with clients and internal teams to understand requirements, implement feedback, troubleshoot issues, and deliver features within Agile development workflows.",
       "Implement SEO and performance optimizations using metadata management, React Helmet, and frontend load-time improvements, and deploy production applications through modern hosting and CI/CD workflows."
     ],
-    "tech": ["React", "JavaScript", "TypeScript", "Tailwind CSS", "TanStack Query", "Zustand", "Node.js", "REST APIs"],
+    "tech": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML/CSS",
+      "Node.js",
+      "REST APIs",
+      "TanStack Query",
+      "TanStack Router",
+      "Zustand",
+      "Tailwind CSS",
+      "CI/CD",
+      "Agile"
+    ],
     "color": "from-blue-500 to-cyan-500"
   },
   {
     "id": 2,
-    "role": "Full Stack Developer Intern",
+    "role": "Full Stack Developer",
     "company": "Devsign Technologies",
     "location": "Chitwan, Nepal",
     "duration": "04/2025 – 11/2025",
@@ -29,7 +42,16 @@
       "Integrated third-party and internal APIs, ensuring reliable data flow and smooth frontend experiences.",
       "Followed Agile methodologies and code review practices, contributing to maintainable, performant applications with a focus on SEO and load-time optimization."
     ],
-    "tech": ["React.js", "WordPress", "JavaScript", "REST APIs", "Node.js"],
+    "tech": [
+      "React.js",
+      "WordPress",
+      "JavaScript",
+      "REST APIs",
+      "Node.js",
+      "Responsive Layouts",
+      "SEO",
+      "Agile"
+    ],
     "color": "from-purple-500 to-pink-500"
   },
   {
@@ -43,7 +65,14 @@
       "Taught Python, C, QBasic, and Modular programming, helping students grasp core software development and problem-solving concepts.",
       "Guided students in designing and building an obstacle-detection robot car using Arduino, integrating sensors and motor control."
     ],
-    "tech": ["Python", "C", "QBasic", "Arduino", "Robotics"],
-    "color": "from-green-500 to-emerald-500"
+    "tech": [
+      "Python",
+      "C",
+      "QBasic",
+      "Arduino",
+      "Robotics",
+      "Sensors & Hardware"
+    ],
+    "color": "from-emerald-500 to-teal-500"
   }
 ]

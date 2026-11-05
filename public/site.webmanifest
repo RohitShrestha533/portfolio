@@ -1,0 +1,17 @@
+{
+  "name": "Rohit Shrestha | Fullstack Developer Portfolio",
+  "short_name": "Rohit Portfolio",
+  "description": "Fullstack Developer and Dean's List Graduate portfolio of Rohit Shrestha.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

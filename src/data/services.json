@@ -1,45 +1,50 @@
 [
   {
-    "title": "Frontend Development",
-    "description": "Building responsive and modern user interfaces using React.js, Tailwind CSS, and modern JavaScript.",
-    "icon": "🎨",
+    "title": "Fullstack Web Applications",
+    "description": "Architecting complete, scalable web applications from responsive frontend interfaces to robust Node.js REST APIs and database layers.",
+    "icon": "⚡",
     "features": [
-      "React.js",
-      "Tailwind CSS",
-      "Responsive Design",
-      "Modern UI/UX"
+      "React, Vite & TypeScript",
+      "Node.js & Express.js Backends",
+      "RESTful API & JWT Auth / RBAC",
+      "MongoDB & MySQL Schemas"
     ],
     "color": "from-blue-500 to-cyan-400"
   },
   {
-    "title": "Backend Development",
-    "description": "Creating scalable backend systems, REST APIs, and authentication services using Node.js and Express.",
-    "icon": "⚙️",
-    "features": ["Node.js", "Express.js", "REST APIs", "JWT Authentication"],
-    "color": "from-purple-500 to-violet-400"
+    "title": "Modern Frontend & SaaS Architecture",
+    "description": "Translating Figma designs into responsive, production-ready React interfaces with enterprise-grade state management and navigation.",
+    "icon": "🎨",
+    "features": [
+      "TanStack Query & TanStack Router",
+      "Zustand State Management",
+      "Tailwind CSS & Mobile-First Design",
+      "Clean Component Architecture"
+    ],
+    "color": "from-cyan-500 to-blue-500"
   },
   {
     "title": "Mobile App Development",
-    "description": "Developing cross-platform mobile applications using React Native and modern backend integration.",
+    "description": "Building performant cross-platform mobile apps for iOS and Android with location tracking, push notifications, and API synchronization.",
     "icon": "📱",
     "features": [
-      "React Native",
-      "Cross Platform Apps",
-      "API Integration",
-      "Performance Optimization"
+      "React Native Cross-Platform",
+      "Real-time Mapping & Geolocation",
+      "Offline Storage & State Sync",
+      "Smooth Touch Interactions"
     ],
-    "color": "from-green-500 to-emerald-400"
+    "color": "from-emerald-500 to-teal-400"
   },
   {
-    "title": "E-commerce Development",
-    "description": "Developing Shopify and MERN-based e-commerce platforms with optimized user experience.",
-    "icon": "🛒",
+    "title": "SaaS, CMS & E-commerce",
+    "description": "Delivering custom SaaS platforms, admin portals, Shopify storefronts, and WordPress CMS implementations tailored to business workflows.",
+    "icon": "🛍️",
     "features": [
-      "Shopify",
-      "Liquid",
-      "Payment Integration",
-      "SEO Optimization"
+      "Multi-portal SaaS & Dashboards",
+      "Shopify & Custom Liquid Themes",
+      "WordPress Theme Customization",
+      "SEO & Core Web Vitals Optimization"
     ],
-    "color": "from-orange-500 to-amber-400"
+    "color": "from-amber-500 to-orange-400"
   }
 ]
